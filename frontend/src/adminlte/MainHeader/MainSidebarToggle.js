@@ -7,7 +7,7 @@ class MainSidebarToggle extends React.Component {
 
         return (
             <button onClick={actions.mainSidebarToggle} className="btn sidebar-toggle">
-                <span className="sr-only">Toggle navigation</span>
+                <span className="sr-only">Toggle/span>
             </button>
         );
     }
