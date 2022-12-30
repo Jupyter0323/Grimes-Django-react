@@ -4,8 +4,10 @@ import constants from "./constants";
 export function controlSidebarToggle() {
     // Because AdminLTE applies classes on <body> and our React application
     // doesn"t manage <body> we have to manipulate it here
+    //
+    //
+//     document.body.classList.toggle("control-sidebar-open");
     document.body.classList.toggle("control-sidebar-open");
-
     return {
         type: constants.CONTROL_SIDEBAR_TOGGLE
     };
