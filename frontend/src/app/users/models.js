@@ -65,7 +65,10 @@ class Collection extends Record({
         return "/admin/users";
     }
 
-    isFilterActive() {
+//     isFilterActive() {
+//         return isFilterActive(this.query);
+//     }
+    ifFilterActive() {
         return isFilterActive(this.query);
     }
 }
